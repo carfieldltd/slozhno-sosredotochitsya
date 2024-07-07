@@ -1,7 +1,5 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  position: relative;
   background-image: url(../images/cover-image-dark.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,6 +124,7 @@
   font-size: 18px;
   color: var(--title-color, #000028);
 }
+
 .section {
   padding: 0 10px 0 10px;
   margin-block-end: 50px;
