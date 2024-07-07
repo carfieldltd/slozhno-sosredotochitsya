@@ -2,3 +2,16 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --bg-color: #000028;
+  --title-color: #000028;
+  --color-text: #f1b2ce;
+  --accent-color: #ff0070;
+  --accent-title-color: #db00ff;
+  --accent-color-subtitle: #ff0070;
+  --active-button-color: #ff0070;
+  --main-font-family: "IBM Plex Mono", "monospace";
+  --main-font: 400;
+  --accent-font: 700;
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
